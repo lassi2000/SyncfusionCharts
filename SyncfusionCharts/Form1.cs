@@ -50,13 +50,6 @@ namespace SyncfusionCharts
         }
 
 
-        // get chart type
-        private OfficeChartType GetChartType()
-        {
-            return Enum.Parse<OfficeChartType>(cChartType_CB.Text, true);
-        }
-
-
         // Generate Button - Click
         private void button1_Click(object sender, EventArgs e)
         {
